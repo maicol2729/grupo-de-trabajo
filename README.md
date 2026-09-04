@@ -1,2 +1,93 @@
 # grupo-de-trabajo
 elaboramos trabajo
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>VicDetalles | Detalles personalizados</title>
+   <meta name="description"
+        content="VicDetalles ofrece detalles personalizados para momentos especiales.">
+</head>
+
+<body>
+
+   <header id="inicio">
+        <a href="#inicio">
+            <img src="img/logo.png" alt="Logo de VicDetalles"width="180">
+        </a>         
+        <h1>VicDetalles</h1>
+        <p>Detalles personalizados para momentos especiales</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#detalles">Nuestros detalles</a></li>
+                <li><a href="#precios">Opciones y precios</a></li>
+                <li><a href="#personaliza">Personaliza tu detalle</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <section id="presentacion">
+            <h2>Bienvenidos a VicDetalles</h2>
+            <p>
+                En VicDetalles creamos detalles personalizados
+                para sorprender a esa persona especial.
+            </p>
+        </section>
+        <section id="detalles">
+            <h2>Nuestros detalles</h2>
+            <ul>
+                <li>Cuadros personalizados</li>
+                <li>Flores y ramos personalizados</li>
+                <li>Arreglos con carritos Hot Wheels</li>
+                <li>Peluches, Cajas sorpresa, Tazas y Polos</li>
+            </ul>
+        </section>
+        <section id="precios">
+            <h2>Opciones y precios</h2>
+            <table border="1">
+                <caption>
+                    Opciones de detalles personalizados
+                </caption>
+                <thead>
+                    <tr><th>Detalle</th><th>Descripción</th><th>Precio referencial</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Cuadro personalizado</td><td>Decorativo con fotos.</td><td>S/ 30.00</td></tr> 
+                    <tr><td>Ramo personalizado</td><td>Flores y elementos.</td><td>S/ 80.00</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="personaliza">
+            <h2>Personaliza tu detalle</h2>
+            <form action="contacto.php" method="post">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required> 
+                </fieldset>
+                <input type="submit" value="Enviar solicitud">
+            </form>
+        </section>
+        <section id="contacto">
+            <h2>Conoce nuestros detalles</h2>
+            <img src="img/detalle.png" alt="Ejemplo de detalle personalizado" width="400">
+            <video width="640" height="360" controls> <source src="videos/video.mp4" type="video/mp4"> </video> 
+        </section>
+    </main>
+    <footer>
+        <p>
+            © 2026 VicDetalles. Todos los derechos reservados.
+        </p>
+    </footer>
+
+</body>
+
+</html>
+```
